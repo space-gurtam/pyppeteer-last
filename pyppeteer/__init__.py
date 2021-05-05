@@ -18,6 +18,7 @@ try:
     __version__ = version(__name__)
 except Exception:
     pass
+__version__ = '0.2.5'
 
 from appdirs import AppDirs
 
